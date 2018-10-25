@@ -4,6 +4,8 @@ metadata:
   name: mysql
   labels:
     app: mysql
+    role: db
+    env: production
 spec:
   replicas: 1
   selector:
